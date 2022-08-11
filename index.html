@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador Alura - Oracle ONE</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <img src="./assets/img/Logo.svg" alt="Logo" class="logo">
+    </header>
+
+    <main>
+
+        <section class="texto-para-traducir">
+
+            <textarea id="ingreso-texto" autocapitalize="none" wrap="hard" autofocus rows="9" placeholder="Ingrese el texto aqui"></textarea>
+
+            <h6 class="condiciones"><img src="./assets/img/Exclamacion.svg" alt="Exclamacion"> Solo letras minúsculas y sin acentos</h6>
+
+            <div class="btn">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+
+        </section>
+
+        
+        <section class="traduccion-mensaje">
+
+            <img src="./assets/img/Munieco.svg" class="munieco" alt="Traducir">
+            <p class="mensaje-traducido">Ningún mensaje fue encontrado <br><span>Ingresa el texto que desees encriptar o desencriptar.</span></p>
+
+            <div class="salida-texto" style="display: none;">
+                <textarea id="salida-texto" autocapitalize="none" wrap="hard" rows="9"></textarea>
+                <button class="btn-copiar">Copiar</button>
+            </div>                
+        </section>    
+        
+    </main>
+    <footer>
+        <h5>Copyright Oracle One - Alura 2022 Realizado Por: Fernando Almanza</h5>
+    </footer>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>

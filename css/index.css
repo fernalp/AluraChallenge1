@@ -1,0 +1,203 @@
+.logo {
+  width: 3rem;
+}
+
+.btn-encriptar {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 1.5rem;
+  width: 20rem;
+  height: 4rem;
+  line-height: 1.25rem;
+  border: none;
+  text-align: center;
+  background: #0A3871;
+  color: #FFFFFF;
+}
+.btn-encriptar:hover {
+  background-color: #195cae;
+  transition: 500ms ease-in-out;
+}
+
+.btn-desencriptar {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 1.5rem;
+  width: 20rem;
+  height: 4rem;
+  line-height: 1.25rem;
+  border: none;
+  text-align: center;
+  background: #D8DFE8;
+  border: 2px solid #0A3871;
+  color: #0A3871;
+}
+.btn-desencriptar:hover {
+  background-color: #c9dbf2;
+  transition: 500ms ease-in-out;
+}
+
+.btn-copiar {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 1.5rem;
+  width: 20rem;
+  height: 4rem;
+  line-height: 1.25rem;
+  border: none;
+  text-align: center;
+  color: #0A3871;
+  background: #FFFFFF;
+  width: 19.5rem;
+  border: 1px solid #0A3871;
+}
+.btn-copiar:hover {
+  background-color: #c9dbf2;
+  transition: 500ms ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #F3F5FC;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .texto-para-traducir {
+  display: flex;
+  padding: 3rem 0.25rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 42rem;
+  gap: 1rem;
+}
+main .texto-para-traducir textarea {
+  text-align: justify;
+  align-items: stretch;
+  padding: 0 0.5rem;
+  resize: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  background: #F3F5FC;
+  border: none;
+  outline: none;
+  color: #0A3871;
+}
+main .texto-para-traducir .condiciones {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+  padding: 0.5rem;
+}
+main .texto-para-traducir .btn {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+main .traduccion-mensaje {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: #Ffffff;
+  box-shadow: 0rem 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.0784313725);
+  border-radius: 2rem;
+  padding: 3rem 0.25rem;
+}
+main .traduccion-mensaje .munieco {
+  width: 21rem;
+  height: 19rem;
+}
+main .traduccion-mensaje .mensaje-traducido {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 120%;
+  text-align: center;
+  width: 80%;
+}
+main .traduccion-mensaje .mensaje-traducido span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  /* Gray/gray-400 */
+  color: #495057;
+}
+main .traduccion-mensaje .salida-texto {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+main .traduccion-mensaje .salida-texto textarea {
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #495057;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background: url(../assets/img/footer.jpg);
+  background-repeat: no-repeat;
+  size: cover;
+  opacity: 0.95;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
